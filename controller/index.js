@@ -22,7 +22,6 @@ module.exports={
         }).catch(function(err){
             console.log(err);
         });
-        console.log(123123123);
 
     }
 };
