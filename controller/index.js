@@ -21,7 +21,7 @@ module.exports={
             res.render('index', { title: 'Home' ,sc:v});
         }).catch(function(err){
             console.log(err);
-        })
+        });
 
     }
 };
