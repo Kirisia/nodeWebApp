@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  body(yctrl="index")
+    div.background-imgA
+    div.background-imgB
+    header.header
+      div.logo Red_ButterFly的博客
+      div.nav
+        ul
+          - var items=["滑板","IT"]
+            each item in items
+              li
+                a(href="https://www.baidu.com")=item
+    div.page-container.home
+      div.center-block
+        article.list
+  script(type="text/javascript", src="/javascripts/index.js")

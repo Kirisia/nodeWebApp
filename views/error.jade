@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  //h1= message
+  //h2= error.status
+  div.error-header
+    img(src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1486615404386&di=c536f620ede572e4480fe3fb4fe0786c&imgtype=0&src=http%3A%2F%2Fwww.qqai.net%2Fuploads%2Fi_3_1447179497x2951564636_21.jpg")
+    h1(id="title") 无此页面！
+      span=error.status
+  //pre #{error.stack}
